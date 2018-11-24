@@ -8,7 +8,13 @@
 
 .game-meta {
   text-align: justify;
-  max-width: 460px;
+}
+
+@media (min-width: 487px) {
+  .game-logo {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .review {
